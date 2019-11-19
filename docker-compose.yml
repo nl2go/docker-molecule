@@ -1,0 +1,10 @@
+version: '3'
+services:
+  molecule:
+    image: quay.io/ansible/molecule:2.20
+    tty: true
+    volumes:
+      - ..:/molecule
+      - /var/run/docker.sock:/var/run/docker.sock
+    working_dir: /molecule
+    entrypoint: /bin/ash
