@@ -4,7 +4,7 @@ services:
     image: quay.io/ansible/molecule:2.20
     tty: true
     volumes:
-      - ..:/molecule
+      - ${MOLECULE_PROJECT_DIR}:/molecule
       - /var/run/docker.sock:/var/run/docker.sock
     working_dir: /molecule
     entrypoint: /bin/ash
