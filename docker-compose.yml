@@ -1,4 +1,4 @@
-version: '3'
+version: '3.5'
 services:
   molecule:
     image: quay.io/ansible/molecule:2.20
