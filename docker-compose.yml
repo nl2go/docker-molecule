@@ -9,7 +9,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./requirements.txt:/etc/pip/requirements.txt
     working_dir: /molecule/${MOLECULE_ROLE_NAME}
-    command: /bin/ash -c 'pip install -r /etc/pip/requirements.txt && /bin/ash'
+    command: /bin/ash -c '[ ! -f /etc/pip/requirements.txt ] || pip install -r /etc/pip/requirements.txt && /bin/ash'
     networks:
       - molecule
 
