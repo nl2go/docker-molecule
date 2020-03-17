@@ -1,0 +1,3 @@
+molecule==3.0.2
+hcloud==1.6.3
+git+https://github.com/pycontribs/molecule-hetznercloud.git@master#egg=molecule-hetznercloud
