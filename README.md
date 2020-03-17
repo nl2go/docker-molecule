@@ -1,3 +1,7 @@
+[![Travis (.org) branch](https://img.shields.io/travis/nl2go/docker-molecule/master-v3)](https://travis-ci.org/nl2go/docker-molecule)
+[![Docker Pulls](https://img.shields.io/docker/pulls/nl2go/molecule)](https://hub.docker.com/r/nl2go/molecule)
+[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/nl2go/docker-molecule)](https://hub.docker.com/repository/docker/nl2go/molecule/tags?page=1)
+
 # Docker Molecule
 
 Provides a containerized version of the [Molecule](https://molecule.readthedocs.io/en/stable/), an [Ansible](https://www.ansible.com/) development and testing framework.
