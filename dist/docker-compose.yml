@@ -2,7 +2,7 @@
 version: '3.5'
 services:
   molecule:
-    image: nl2go/molecule:3.0.2-n2g-1.0.0
+    image: nl2go/molecule:2.22.1-n2g-1.0.1
     tty: true
     volumes:
       - ${MOLECULE_PROJECT_DIR}:/molecule/${MOLECULE_ROLE_NAME}
