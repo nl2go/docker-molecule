@@ -9,14 +9,20 @@ Provides a containerized version of the [Molecule](https://molecule.readthedocs.
 ## Usage
 
 The following will run the container in the interactive mode mounting the parent directory. 
-```
-$ docker-compose run molecule
-```
+
+    $ cd dist
+    $ docker-compose run molecule
+
 
 Molecule is ready to use, e.g. to scaffold a new role run following command:
-```
-$ molecule init role -r <role name>
-```
+
+    $ molecule init role -r <role name>
+
+
+## Development
+
+    $ docker-compose build
+    $ docker-compose run molecule
 
 Check [Molecule documentation](https://molecule.readthedocs.io/en/stable/) for further usage details.
 
