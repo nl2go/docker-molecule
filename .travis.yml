@@ -1,6 +1,5 @@
 ---
 dist: bionic
-language: python
 services: docker
 
 env:
