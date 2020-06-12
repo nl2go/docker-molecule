@@ -1,7 +1,6 @@
-FROM quay.io/ansible/molecule:3.0.2
+FROM quay.io/ansible/molecule:3.0.4
 
 RUN ln -s /usr/bin/python3 /usr/bin/python \
-    && ln -s /usr/bin/pip3 /usr/bin/pip \
     && pip install --upgrade pip
 
 COPY .docker/ /
